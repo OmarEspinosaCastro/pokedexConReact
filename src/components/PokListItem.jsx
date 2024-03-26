@@ -32,8 +32,8 @@ const PokListItem = (props) => {
         <h1>Altura: { pokemon.height }cm</h1>  */}
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
-                    <h5 className="card-title">{props.name}</h5>
-                    <h5 className="card-title">{props.name}</h5>
+                    <h5 className="card-title">{pokemon.weight}kg</h5>
+                    <h5 className="card-title">{pokemon.height}cm</h5>
                     <a href={`/pokemon/${identificador()}`} className="btn btn-light">Detalles</a>
                 </div>
             </div>
