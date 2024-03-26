@@ -1,6 +1,6 @@
 # Poquedex con React Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El objetivo es mostrar una aplicación web mediante librería ReactJS, donde consuma una Api poquemon, que es publica (https://pokeapi.co/api/v2/pokemon) y se pueda consultar la descripción de cada poquemon
 
 ## Available Scripts
 
