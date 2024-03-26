@@ -1,15 +1,21 @@
-import React from "react";
-import PokemonProvider from "./api/pokemons/PokemonProvider";
-import RoutesComponent from "./routes";
+import React from 'react'
+import Home from "./components/Home";
+import { 
+  BrowserRouter,
+  Routes,
+  Route
+ } from "react-router-dom";
+import PokeDetalle from './components/PokeDetalle';
 
-function App() {
+const App = () => {
   return (
-    <PokemonProvider>
-    <div style={{display:'flex',flexDirection:'column', minHeight:'100vh'}}>
-       <RoutesComponent />
-    </div>
-    </PokemonProvider>
-  );
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pokemon/:id" element={<PokeDetalle/>} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

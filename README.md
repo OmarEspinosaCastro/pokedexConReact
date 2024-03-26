@@ -1,48 +1,70 @@
-# POKÉDEX CON REACT JS
+# Getting Started with Create React App
 
-## 1. Resumen del proyecto
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-*Proyecto donde se construyó una página web para visualizar datos en forma de lista consumiendo la API de “https://pokeapi.co/”.
-Es una página web que permite visualizar las imágenes, filtrarla dependiendo el nombre que se ingrese y las imágenes se cargan automáticamente.*
+## Available Scripts
 
-## 2. Diseño de la Interfaz de Usuario
+In the project directory, you can run:
 
-### Prototipo
-*Se desarrolló un espacio donde el flujo para el usuario sea sencillo, amigable y claro durante su recorrido por el sitio, siempre con el objetivo de que obtenga la información necesaria. La idea es mostrar una lista de pokemones con el nombre y la imagen, junto con un botón para ver las características del mismo, además de tener un campo de filtrado por nombre.*
+### `npm start`
 
-### Prototipo final
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-*En la lista se muestra la imagen, nombre y un boton para ingresar al detalle del pokemon.*
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![image](https://user-images.githubusercontent.com/38709814/168381165-74137209-776f-4aa2-8b1f-1fefceee8464.png)
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-*En el momento que ingresamos una letra ya esta haciendo el filtrado y verificar si el texto tiene alguna coincidencia con el nombre.*
+### `npm run build`
 
-![image](https://user-images.githubusercontent.com/38709814/168381185-08cce8e9-7427-434c-b6a1-05eff5d85652.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-*Una ves entrando al detalle no muestra la informacion general y habilidades.*
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![image](https://user-images.githubusercontent.com/38709814/168381221-0b51354d-58a8-4d39-9241-3cf58d22e27e.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-## 3. Objetivos de aprendizaje
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### HTML y CSS
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Uso de HTML semántico
-- Uso de selectores de CSS
-- Uso de flexbox en CSS
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### JavaScript
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Uso de componentes React JS
-- Implementación de rutas con react-router-dom
-- Uso de Context para compartir datos globales
-- Instalación de librería Boostrap
-- Uso de hooks de React
+## Learn More
 
-### Git y GitHub
-- Uso de comandos de git (clone | add | commit | branches | pull | status | push)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Ejemplo de consumir un Api con ReactJS
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
